@@ -4,7 +4,7 @@ import axios from "axios";
 import StatsCard from "../components/StatsCard";
 
 // API base URL
-const API = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API = import.meta.env.VITE_API_URL || "https://tinylink-3yn8.onrender.com";
 
 export default function Stats() {
   // Read the dynamic short code from the URL

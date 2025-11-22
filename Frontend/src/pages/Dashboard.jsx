@@ -4,7 +4,7 @@ import LinkForm from "../components/LinkForm";
 import LinkTable from "../components/LinkTable";
 
 // API base URL from environment variables (fallback for local dev)
-const API = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API = import.meta.env.VITE_API_URL || "https://tinylink-3yn8.onrender.com";
 
 export default function Dashboard() {
   // Store all shortened links
